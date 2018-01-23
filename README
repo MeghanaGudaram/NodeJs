@@ -1,1 +1,15 @@
 Steps to run the Notes Application:
+
+******************************************************************************************************
+If you haven't installed nodejs or npm I would recommend to follow the instructions in the below url.
+https://nodejs.org/en/download/
+
+Before executing the files, list of packages used:
+node v8.9.4
+lodash 4.17.4
+yargs 4.7.1
+npm 5.6.0
+
+There is a possibility of error if you have different versions.
+******************************************************************************************************
+
