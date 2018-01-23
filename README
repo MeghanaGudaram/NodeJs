@@ -35,3 +35,13 @@ node app.js remove --title="some title"
 (or) node app.js remove -t "some title"
 
 The saved data could be seen in notes-data.json
+
+To run /playground/arrow-function.js
+node playground/arrow-function.js
+
+To run /playground/debugging.js in chrome
+node --inspect-brk playground/debugging.js
+open google chrome and type chrome://inspect
+
+To run /playground/debugging.js in command line
+node inspect playground/debugging.js
