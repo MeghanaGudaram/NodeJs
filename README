@@ -13,3 +13,25 @@ npm 5.6.0
 There is a possibility of error if you have different versions.
 ******************************************************************************************************
 
+If you are not in the notes-node folder,
+
+cd notes-node/
+npm install
+node app.js --help
+
+// To add a note
+node app.js add --title="some title" --body="Some body"
+(or) node app.js add -t "some title" -b "Some body"
+
+// To read a note
+node app.js read --title="some title"
+(or) node app.js read -t "some title"
+
+// To list all notes
+node app.js list
+
+// To remove a note
+node app.js remove --title="some title"
+(or) node app.js remove -t "some title"
+
+The saved data could be seen in notes-data.json
